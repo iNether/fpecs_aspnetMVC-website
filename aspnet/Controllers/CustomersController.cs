@@ -28,6 +28,7 @@ namespace aspnet.Controllers
             var membershipType = _context.MembershipType.ToList();
             var viewModel = new NewCustomerViewModel
             {
+                Customer = new Customer(),
                 MembershipType = membershipType
             };
 
