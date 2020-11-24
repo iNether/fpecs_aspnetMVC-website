@@ -239,3 +239,5 @@ D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\System.Web.
 D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\System.Net.Http.Formatting.xml
 D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\System.Web.Http.xml
 D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\System.Web.Http.WebHost.xml
+D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\AutoMapper.dll
+D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\AutoMapper.xml
