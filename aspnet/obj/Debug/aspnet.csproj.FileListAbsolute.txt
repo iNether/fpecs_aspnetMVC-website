@@ -231,3 +231,4 @@ D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\obj\Debug\aspne
 D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\obj\Debug\aspnet.Migrations.CustomerBirthday.resources
 D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\obj\Debug\aspnet.Migrations.CustomerBirthday1.resources
 D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\obj\Debug\aspnet.Migrations.MovieModelUpdateGenreETC.resources
+D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\obj\Debug\aspnet.Migrations.movieGenresFormInit.resources
