@@ -3,21 +3,54 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using aspnet.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace aspnet.ViewModels
 {
     public class NewMovieViewmodel
     {
         public IEnumerable<MovieGenre> MovieGenres { get; set; }
-        public Movie Movie { get; set; }
+        public int? Id { get; set; }
+
+        [Required]
+        [StringLength(255)]
+        public string Name { get; set; }
+
+        [Required]
+        [Display(Name = "Genre")]
+        public byte? MovieGenreId { get; set; }
+
+        [Required]
+        [Display(Name = "Release Date")]
+        public DateTime? ReleaseDate { get; set; }
+
+        [Required]
+        [Display(Name = "Number In Stock")]
+        [Range(1, 10)]
+        public byte? NumberInStock { get; set; }
+        
         public string Title
         {
             get
             {
-                if (Movie != null && Movie.Id != 0)
-                    return "Edit Movie";
-                return "New Movie";
+                return Id != 0 
+                    ? "Edit Movie" 
+                    : "New Movie";
             }
+        }
+
+        public NewMovieViewmodel()
+        {
+            Id = 0;
+        }
+
+        public NewMovieViewmodel(Movie movie)
+        {
+            Id = movie.Id;
+            Name = movie.Name;
+            ReleaseDate = movie.ReleaseDate;
+            NumberInStock = movie.NumberInStock;
+            MovieGenreId = movie.MovieGenreId;
         }
     }
 }

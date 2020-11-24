@@ -27,7 +27,8 @@ namespace aspnet.Models
         public DateTime? AddedDate { get; set; }
 
         [Display(Name = "Number in Stock")]
-        public int NumberInStock { get; set; }
+        [Range (1, 10)]
+        public byte NumberInStock { get; set; }
 
 
     }

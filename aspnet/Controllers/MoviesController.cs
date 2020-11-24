@@ -5,7 +5,6 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Web;
 using System.Web.Mvc;
-using aspnet.Migrations;
 using aspnet.Models;
 using aspnet.ViewModels;
 
@@ -50,17 +49,26 @@ namespace aspnet.Controllers
             if (movie == null)
                 return HttpNotFound();
 
-            var viewModel = new NewMovieViewmodel
+            var viewModel = new NewMovieViewmodel(movie)
             {
-                Movie = movie,
                 MovieGenres = _context.MovieGenres.ToList()
             };
             return View("MovieForm", viewModel);
         }
         
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Save(Movie movie)
         {
+            if (!ModelState.IsValid)
+            {
+                var viewModel = new NewMovieViewmodel(movie)
+                {
+                    MovieGenres = _context.MovieGenres.ToList()
+                };
+                return View("MovieForm", viewModel);
+            }
+            
             if (movie.Id == 0)
             {
                 movie.AddedDate = DateTime.Now;
