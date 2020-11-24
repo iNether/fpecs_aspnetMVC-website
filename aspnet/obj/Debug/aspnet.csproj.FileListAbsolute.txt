@@ -233,3 +233,9 @@ D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\obj\Debug\aspne
 D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\obj\Debug\aspnet.Migrations.MovieModelUpdateGenreETC.resources
 D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\obj\Debug\aspnet.Migrations.movieGenresFormInit.resources
 D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\obj\Debug\aspnet.Migrations.moviecontroller_securityupdate.resources
+D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\System.Net.Http.Formatting.dll
+D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\System.Web.Http.dll
+D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\System.Web.Http.WebHost.dll
+D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\System.Net.Http.Formatting.xml
+D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\System.Web.Http.xml
+D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\System.Web.Http.WebHost.xml
