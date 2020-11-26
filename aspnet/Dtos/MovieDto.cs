@@ -17,6 +17,8 @@ namespace aspnet.Dtos
         [Required]
         public byte MovieGenreId { get; set; }
 
+        public MovieGenreDto MovieGenre { get; set; }
+
         public DateTime ReleaseDate { get; set; }
 
         public DateTime AddedDate { get; set; }
