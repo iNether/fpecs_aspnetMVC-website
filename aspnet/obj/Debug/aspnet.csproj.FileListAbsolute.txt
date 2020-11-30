@@ -243,3 +243,8 @@ D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\AutoMapper.
 D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\AutoMapper.xml
 D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\obj\Debug\aspnet.Migrations.SeedUsers.resources
 D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\obj\Debug\aspnet.Migrations.facebookOAuth.resources
+D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\Glimpse.Ado.dll
+D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\Glimpse.AspNet.dll
+D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\Glimpse.Core.dll
+D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\Glimpse.EF6.dll
+D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\Glimpse.Mvc5.dll
