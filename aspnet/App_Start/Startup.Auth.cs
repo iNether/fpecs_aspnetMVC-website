@@ -54,9 +54,9 @@ namespace aspnet
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            app.UseFacebookAuthentication(
-               appId: "379319496822073",
-               appSecret: "");
+            //app.UseFacebookAuthentication(
+            //   appId: "379319496822073",
+            //   appSecret: "");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
