@@ -1,0 +1,46 @@
+﻿@model IEnumerable<aspnet.Models.Movie>
+@{
+    ViewBag.Title = "Movies";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Movies</h2>
+
+<table id="movies" class="table table-hover">
+    <thead>
+        <tr>
+            <th>Thumbnail</th>
+            <th>Movie</th>
+            <th>Genre</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+@section scripts
+{
+    <script>
+    $(document).ready(function () {
+        var table = $("#movies").DataTable({
+            ajax: {
+                url: "/api/movies",
+                dataSrc: ""
+            },
+            columns: [
+                {
+                    data: "thumbnailLink",
+                    render: function (thumbnailLink) {
+                        return '<img class="img-thumbnail" src="' + thumbnailLink + '" </img>';
+                    }
+                },
+                {
+                    data: "name"
+                },
+                {
+                    data: "movieGenre.name",
+                }
+            ]
+        });
+    });
+    </script>
+}
