@@ -7,7 +7,7 @@
 <h2>@Model.Title</h2>
 
 @using (Html.BeginForm("Save", "Movies"))
-{ 
+{
     <div class="form-group">
         @Html.LabelFor(m => m.Name)
         @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
@@ -28,6 +28,13 @@
         @Html.TextBoxFor(m => m.NumberInStock, new { @class = "form-control" })
         @Html.ValidationMessageFor(m => m.NumberInStock)
     </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.thumbnailLink)
+        @Html.TextBoxFor(m => m.thumbnailLink, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.thumbnailLink)
+    </div>
+
+
     @Html.HiddenFor(m => m.Id)
     @Html.AntiForgeryToken()
     <button type="submit" class="btn btn-primary">Save</button>
@@ -35,6 +42,6 @@
 
 @section scripts
 {
-    @Scripts.Render("~/bundles/jqueryval")    
+    @Scripts.Render("~/bundles/jqueryval")
 }
 

@@ -12,8 +12,14 @@ namespace aspnet
                         "~/Scripts/jquery-{version}.js",
                         "~/Scripts/bootbox.js",
                         "~/Scripts/bootstrap.js",
+                        "~/Scripts/respond.js",
                         "~/Scripts/datatables/jquery.datatables.js",
-                        "~/Scripts/datatables/dstatables.bootstrap.js"));
+                        "~/Scripts/datatables/datatables.bootstrap.js",
+                        "~/Scripts/bloodhound.js",
+                        "~/Scritps/typeahead.bundle.js",
+                        "~/Scripts/typeahead.jquery.js",
+                        "~/Scritps/toastr.js"
+                        ));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));
@@ -24,9 +30,13 @@ namespace aspnet
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/datatables/css/datatables.bootstrap.css",
-                      "~/Content/site.css")); 
+                        "~/Content/bootstrap.css",
+                        "~/Content/glyphicon.css",
+                        "~/Content/datatables/css/datatables.bootstrap.css",
+                        "~/Content/typeahead.css",
+                        "~/Content/toastr.css",
+                        "~/Content/site.css"
+                      )); 
         }
     }
 }

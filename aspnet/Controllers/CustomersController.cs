@@ -26,7 +26,7 @@ namespace aspnet.Controllers
         [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult New()
         {
-            var membershipType = _context.MembershipType.ToList();
+            var membershipType = _context.MembershipTypes.ToList();
             var viewModel = new NewCustomerViewModel
             {
                 Customer = new Customer(),
@@ -46,7 +46,7 @@ namespace aspnet.Controllers
                 var viewModel = new NewCustomerViewModel
                 {
                     Customer = customer,
-                    MembershipType = _context.MembershipType.ToList()
+                    MembershipType = _context.MembershipTypes.ToList()
                 };
 
                 return View("CustomerForm", viewModel);
@@ -97,7 +97,7 @@ namespace aspnet.Controllers
             var viewModel = new NewCustomerViewModel
             {
                 Customer = customer,
-                MembershipType = _context.MembershipType.ToList()
+                MembershipType = _context.MembershipTypes.ToList()
             };
             return View("CustomerForm", viewModel);
         }

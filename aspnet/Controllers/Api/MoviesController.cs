@@ -20,6 +20,21 @@ namespace aspnet.Controllers.Api
             _context = new ApplicationDbContext();
         }
 
+        //GET /api/movies
+        public IEnumerable<MovieDto> GetMovies(string query)
+        {
+            var moviesQuery = _context.Movies
+               .Include(m => m.MovieGenre)
+               .Where(m => m.NumberInStock > 0);
+
+            if (!String.IsNullOrWhiteSpace(query))
+                moviesQuery = moviesQuery.Where(m => m.Name.Contains(query));
+
+            return moviesQuery
+                .ToList()
+                .Select(Mapper.Map<Movie, MovieDto>);
+        }
+
         // GET      /api/movies
         public IHttpActionResult GetMovies()
         {

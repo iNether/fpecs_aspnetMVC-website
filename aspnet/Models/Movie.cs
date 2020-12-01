@@ -30,6 +30,11 @@ namespace aspnet.Models
         [Range (1, 10)]
         public byte NumberInStock { get; set; }
 
+        public byte NumberAvailable { get; set; }
+
+        [Display(Name = "Thumbnail")]
+        public string thumbnailLink { get; set; }
+
 
     }
 }

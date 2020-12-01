@@ -28,7 +28,11 @@ namespace aspnet.ViewModels
         [Display(Name = "Number In Stock")]
         [Range(1, 10)]
         public byte? NumberInStock { get; set; }
-        
+
+        [Required]
+        [Display(Name = "Thumbnail Link")]
+        public string thumbnailLink { get; set; }
+
         public string Title
         {
             get
@@ -38,6 +42,8 @@ namespace aspnet.ViewModels
                     : "New Movie";
             }
         }
+        
+        
 
         public NewMovieViewmodel()
         {
@@ -51,6 +57,7 @@ namespace aspnet.ViewModels
             ReleaseDate = movie.ReleaseDate;
             NumberInStock = movie.NumberInStock;
             MovieGenreId = movie.MovieGenreId;
+            thumbnailLink = movie.thumbnailLink;
         }
     }
 }

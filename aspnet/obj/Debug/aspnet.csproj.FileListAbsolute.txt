@@ -248,3 +248,10 @@ D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\Glimpse.Asp
 D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\Glimpse.Core.dll
 D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\Glimpse.EF6.dll
 D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\Glimpse.Mvc5.dll
+D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\obj\Debug\aspnet.Migrations.AddRental.resources
+D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\Bloodhound.dll
+D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\Speedy.dll
+D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\Bloodhound.pdb
+D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\bin\Speedy.pdb
+D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\obj\Debug\aspnet.Migrations.NewRentalsUpdate.resources
+D:\Windows\Documents\_FFEKS\_3_KM\fpecs_aspnetMVC-website\aspnet\obj\Debug\aspnet.Migrations.MovieThumbnail.resources
